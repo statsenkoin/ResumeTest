@@ -19,7 +19,7 @@ body {
 .about {
   margin-bottom: 40px;
 }
-.about_position{
+.about_position {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -139,10 +139,17 @@ body {
 .sidebar {
   width: 370px;
   background-color: #1e2939;
+  /* background-color: indigo; */
   padding-top: 40px;
 }
 .photo {
-  width: 370px;
+  width: 400px;
+  background-color: rgb(30, 41, 57);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 200px;
+  box-shadow: 10px 10px 50px rgba(30, 41, 57, 0.5);
+
   margin-bottom: 50px;
 }
 .sidebar_titles {
